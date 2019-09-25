@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "version": "auto-changelog --template changelog-templates/changelog-template.hbs"
+    "version": "auto-changelog --output changelogs/changelog.html --template changelog-templates/changelog-template.hbs "
   },
   "private": true,
   "dependencies": {
