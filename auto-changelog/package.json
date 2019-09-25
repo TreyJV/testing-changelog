@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "version": "auto-changelog --template changelog-templates/changelog-template.hbs"
   },
   "private": true,
   "dependencies": {
